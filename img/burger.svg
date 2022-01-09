@@ -1,0 +1,6 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 8C0 3.58172 3.58172 0 8 0H42C46.4183 0 50 3.58172 50 8V42C50 46.4183 46.4183 50 42 50H8C3.58172 50 0 46.4183 0 42V8Z" fill="#C4C4C4" fill-opacity="0.2"/>
+<line x1="11" y1="13" x2="39" y2="13" stroke="white" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+<line x1="11" y1="25" x2="39" y2="25" stroke="white" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+<line x1="11" y1="37" x2="39" y2="37" stroke="white" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+</svg>

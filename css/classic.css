@@ -1,0 +1,124 @@
+
+.alldress{
+    position: absolute;
+    top: 122px;
+    left: 52px;
+    width: 1390px;
+}
+
+.dressblock1{
+    
+    width: 1390px;
+    height: 700px;
+    left: 0px;
+    top: 73px;
+}
+.dresshead{
+    width: 1390px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+
+    background: #25262E;
+    box-shadow: 0px 13px 13px rgba(0, 0, 0, 0.39);    
+}
+.nom{
+    width: 1390px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: rgba(248, 1, 169, 0.61); 
+}
+.blockphoto{
+    width: 1390px;
+    height: 530px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+    
+.photo1,.photo2, .photo3 {
+        margin: 24px;
+    }
+.photo1{
+    max-width: 430px;
+    max-height: 430px;
+    left: 0px;
+    top: 142px;
+    border-radius: 50px;
+}
+.photo2{
+    max-width: 382px;
+    max-height: 535px;
+    left: 504px;
+    top: 78px;
+    border-radius: 50px;
+}
+.photo3{
+    max-width: 430px;
+    max-height: 430px;
+    left: 958px;
+    top: 142px;
+    border-radius: 50px;
+}
+.whatpricebtn{
+    width: 230px;
+    height: 61px;
+    left: 0px;
+    top: 600px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: #25262E;
+    box-shadow: 0px 13px 13px rgba(0, 0, 0, 0.39);
+}
+.whatprice{
+   
+    width: 220px;
+    height: 38px;
+    left: 19px;
+    top: 12px;
+    margin: 0;
+    text-align: center;
+
+    font-family: Caveat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;  
+}
+
+#blockfooter{
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}

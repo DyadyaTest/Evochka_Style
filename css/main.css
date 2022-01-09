@@ -1,0 +1,3552 @@
+.head1{
+    background: #25262E;
+    box-shadow: 0px 13px 13px rgba(0, 0, 0, 0.39);
+    position: fixed;
+    height:100px; 
+    width:1600px; 
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    display: table;
+    
+}
+.burger{
+    display: none;
+}
+.home{
+    display: none;
+}
+.logdress{
+    position: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    left: 97px;
+    top: 0px;
+    width: 285px;
+    height: 100px;
+    
+}
+.headeva{
+    position: fixed;
+    width: 92px;
+    height: 33px;
+    left: 571px;
+    top: 36px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+.headeva:hover{
+    font-size: 25px;
+}
+.headeva1{
+    position: fixed;
+    width: 92px;
+    height: 33px;
+    left: 730px;
+    top: 36px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+.headeva1:hover{
+    font-size: 25px;
+}
+.dropbtnmob{
+    display: none;
+}
+.headeva2{
+    position: fixed;
+    width: 110px;
+    height: 33px;
+    left: 920px;
+    top: 36px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+.headeva2:hover{
+    font-size: 25px;
+}
+
+
+.insta{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 105px;
+    top: 40px;   
+    z-index: 5;
+}
+.insta:hover{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    right: 104px;
+    top: 39px;    
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    
+    width: 125px;
+    height: 33px;
+    left: 730px;
+    top: 36px;
+    padding: 0px;
+    position: fixed;
+    cursor: pointer;
+    border: none;
+    z-index: 2000;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    
+    width: 260px;
+    height: 283px;
+    left: 662px;
+    top: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 260px;
+    height: 283px;
+    
+    top: 75px;
+    background: rgba(37, 38, 46, 0.79);
+    text-align: center;
+    justify-content: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a { 
+    display: block;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+}
+
+.punktmenu2{
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 30px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+ 
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+
+.punktmenu3{
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 72px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+.punktmenu4{
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 114px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+.punktmenu5{
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 155px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+.punktmenu6{
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 197px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+.punktmenu7{
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 239px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+
+
+
+
+.punktmenu2:hover{
+    font-size: 24px;
+}
+.punktmenu3:hover{
+    font-size: 24px;
+}
+.punktmenu4:hover{
+    font-size: 24px;
+}
+.punktmenu5:hover{
+    font-size: 24px;    
+} 
+.punktmenu6:hover{
+    font-size: 24px;
+} 
+.punktmenu7:hover{
+    font-size: 24px;
+}
+
+
+/*  Мобильая менюшка*/
+/* The container <div> - needed to position the dropdown content */
+.dropdownmob {
+    display: none;
+    position: absolute;
+    float: right;
+    width: 50px;
+    height: 50px;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentmob {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 363px;
+    float: right;
+    right: 5px;
+    top: 5px;
+    background: rgba(37, 38, 46, 0.79);
+    text-align: center;
+    justify-content: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentmob a { 
+    display: block;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.showmob {
+    display:block;
+}
+.punktmenu1mob{
+    display: none;
+}
+.punktmenu2mob{
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 30px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+ 
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+
+.punktmenu3mob{
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 72px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+.punktmenu4mob{
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 114px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+.punktmenu5mob{
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 155px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+.punktmenu6mob{
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 197px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+.punktmenu7mob{
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 0px;
+    top: 239px;
+    margin: 0;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+}
+
+.conteiner{
+    width: 100%;
+    height: 100%;
+    left: 100px;
+    top: 0px;
+    justify-content: center;
+}
+
+/*---------------------------------АДАПТАЦИЯ*/
+
+.all{
+    width: 1390px;
+    margin-top: 163px;
+    margin-left: 97px;
+    margin-right: 97px;
+    height: 100%;
+    justify-content: center;
+   
+}
+
+.content{
+    width: 100%;
+    margin-top: 125px;
+    height: auto;
+    height: 565px;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    height: 565px;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+             
+.main {
+    position:absolute;
+    float: left;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 565px;
+    margin: 0 auto;
+    background: #161923;
+    }          
+
+.btn {
+width: 200px;
+color: #fff;
+border: none;
+margin-left: 10px;
+background: black;
+}
+.clear {
+width: auto;
+}
+.btn:hover, .btn:hover {
+background: rgba(0,0,0,0.8);
+}
+.btns {
+width: 410px;
+margin: 50px auto;
+}
+                
+.back {
+position: absolute;
+top: 0;
+left: 0;
+text-align: center;
+display: block;
+padding: 7px;
+width: 100%;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+background: rgba(255, 255, 255, 0.25);
+font-weight: bold;
+font-size: 13px;
+color: #000;
+-webkit-transition: all 200ms ease-out;
+-moz-transition: all 200ms ease-out;
+-o-transition: all 200ms ease-out;
+transition: all 200ms ease-out;
+}
+.back:hover {
+color: black;
+background: rgba(255, 255, 255, 0.5);
+}
+
+
+.page_container {
+    max-width: 970px;
+    height: 490px;
+    margin: 37px auto;
+    text-align: center;
+}
+
+.immersive_slider .is-slide .content p{
+float: left;
+font-weight: 100;
+width: 100%;
+font-size: 17px;
+margin-top: 5px;
+}
+
+
+.rev{
+    width: 100%;
+    height: 312px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+    background: #25262E; 
+    box-shadow: 0px 13px 13px rgba(0, 0, 0, 0.39);
+}
+.uprev{
+    width: 100%;
+    height: 89px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.revtext{
+    
+    width: 100%;
+    height: 63px;
+    margin-top: 26px;
+    width: 443px;
+    
+}
+
+.grouprev{
+    width: 100%;
+    height: 206px;
+
+}
+
+
+.rev1{
+    width: 33.333%;
+    height: 100%;
+    display: table-cell;
+}
+
+.onerev{
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rev2{
+    height: 160px;
+    width: 33.333%; 
+    
+    display: table-cell;
+}
+
+.tworev{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rev3{
+    width: 33.333%;
+    height: 100%;
+    display: table-cell;
+
+}
+
+.threrev{
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+.contcont{
+    height: 738px;
+    width: 100%;
+    background: #25262E;
+    box-shadow: 0px 13px 13px rgba(0, 0, 0, 0.39);
+}
+
+.aboutushead{
+    position: relative;;
+    top: 20px;
+    width: 171px;
+    height: 71px;
+    left: 595px;
+   
+    
+}
+
+
+.whocont{
+    width: 100%;  
+}
+
+.blockphot{
+    position: relative;
+    padding: 0px;
+    max-height: 580px;
+    float: right;
+    right: 107px;
+    margin-top: -565px;
+}
+
+.photowhowe{
+   
+    width: 400px;
+    height: 580px;
+    
+}
+
+.blocktex{
+    
+    width:750px;
+    
+    
+    
+}
+
+.textwhowe{
+    
+    width: 750px;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+}
+.podrob{
+    margin-left: 85px;
+    margin-bottom: 35px;
+}
+
+.soc{
+    margin-left: 95px;
+}
+
+.soc1{
+    margin-right: 23px;
+}
+.soc2{
+    margin-right: 23px;
+}
+
+/*Футер*/
+
+.footer{
+    display: table;
+    width: 1600px;
+    height: 82px;
+    margin-left: -8px;
+    margin-top: 64px;
+    
+    background: #25262E;
+    box-shadow: 0px 13px 13px rgba(0, 0, 0, 0.39);
+    
+}
+.footone{
+    display: table-cell;
+    width: 77%;
+}
+.foottwo{
+    display: table-cell;
+    width: 23%;
+}
+
+.logofoot{
+    display: table-cell;
+    width: 334px;
+    height: 60px;   
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.foottel{
+    display: table-cell; 
+    justify-content: center;
+    
+}
+
+.tell{
+    margin-bottom: 23px;
+    width: 114px;
+    height: 17px;
+    float: right;
+    margin-right: 36px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+   
+}
+.foottwo img{
+    width: 26px;
+    height: 26px;
+    margin-bottom: 18px;
+}
+
+.footvibe{
+    display: table-cell;
+    justify-content: center;
+    width: 44px;
+}
+.viber{
+    justify-content: center;  
+    margin-bottom: 20px;
+    
+}
+
+.foottlg{
+    display: table-cell;
+    justify-content: center;
+    width: 44px;
+    left: 100px;
+}
+.telegram{
+    justify-content: center; 
+    margin-bottom: 20px;
+    
+    
+}
+
+.footinst{
+    display: table-cell;
+    justify-content: center;
+    width: 44px;
+}
+.instafoot{
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    .head1{
+        width: 1500px;
+        
+    }
+    .headeva{
+        left: 500px;
+    }
+    .dropbtn{
+        left: 659px;
+    }
+    .dropdown{
+        left: 591px;
+    }
+    .headeva2{
+        left: 849px;
+    }
+    .all{
+        width: 1290px; 
+    }
+    .uprev{
+        margin-bottom: 5px;
+    }
+    .revtext{
+        width: 50%;
+    }
+    .onerev {
+        margin-bottom: 32px;
+    }
+    .tworev{
+        height: 115%;
+    }
+    .threrev {
+        margin-bottom: 35px;
+    }
+    .contcont{
+        height: 690px;
+    }
+    .aboutushead{
+    left: 525px;
+    height: 63px;
+    }
+    .blocktex{
+        margin-left: -50px;
+        font-size: 12px;
+        line-height: 38px;
+    }
+    .blockphot{
+        margin-right: -50px;
+    }
+    .textwhowe{
+        width: 600px;
+        margin-bottom: 5px;
+    }
+    .podrob{
+        height: 80px;
+        margin-bottom: 0px;
+    }
+    .photowhowe{
+       width: 340px;
+       height: auto;
+       margin-top: 65px;
+    }
+    .footer{
+        width: 1500px;
+    }  
+    .footone {
+        width: 70%;
+    }
+    .foottwo {
+        width: 30%;
+    }
+}
+
+
+
+@media screen and (max-width: 1441px) {
+    .head1{
+        width: 1440px;
+        
+    }
+    .headeva{
+        left: 420px;
+    }
+    .dropbtn{
+        left: 579px;
+    }
+    .dropdown{
+        left: 511px;
+    }
+    .headeva2{
+        left: 769px;
+    }
+    .all{
+        width: 1230px; 
+    }
+    .uprev{
+        margin-bottom: 5px;
+    }
+    .revtext{
+        width: 50%;
+    }
+    .onerev {
+        margin-bottom: 32px;
+    }
+    .tworev{
+        height: 115%;
+    }
+    .threrev {
+        margin-bottom: 35px;
+    }
+    .contcont{
+        height: 690px;
+    }
+    .aboutushead{
+    left: 525px;
+    height: 63px;
+    }
+    .blocktex{
+        margin-left: -50px;
+        font-size: 12px;
+        line-height: 38px;
+    }
+    .blockphot{
+        margin-right: -50px;
+    }
+    .textwhowe{
+        width: 600px;
+        margin-bottom: 5px;
+    }
+    .podrob{
+        height: 80px;
+        margin-bottom: 0px;
+    }
+    .photowhowe{
+       width: 340px;
+       height: auto;
+       margin-top: 65px;
+    }
+    .footer{
+        width: 1440px;
+    }  
+    .footone {
+        width: 70%;
+    }
+    .foottwo {
+        width: 30%;
+    }
+}
+
+
+
+@media screen and (max-width: 1369px) {
+    .head1{
+        width: 1024px;
+        
+    }
+    .headeva{
+        left: 360px;
+    }
+    .dropbtn{
+        left: 519px;
+    }
+    .dropdown{
+        left: 511px;
+    }
+    .headeva2{
+        left: 709px;
+    }
+    .all{
+        width: 815px; 
+    }
+    .wrapper{
+    width: 1008px;
+    height: 550px;
+    margin-left: -100px;
+    }
+    .page_container{
+        height: 480px;
+        width: 970px;
+    }
+    
+    .rev{
+        height: 245px;
+    }
+    .uprev{
+        margin-bottom: 5px;
+    }
+    .revtext{
+        width: 50%;
+    }
+    .rev2{
+        height: 128px;
+    }
+    .onerev {
+        margin-bottom: 32px;
+    }
+    .tworev{
+        height: 115%;
+    }
+    .threrev {
+        margin-bottom: 35px;
+    }
+    .contcont{
+        height: 690px;
+    }
+    .aboutushead{
+    left: 340px;
+    height: 63px;
+    }
+    .blocktex{
+        margin-left: -50px;
+        font-size: 12px;
+        line-height: 38px;
+    }
+    .blockphot{
+        margin-right: -50px;
+    }
+    .textwhowe{
+        width: 350px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .podrob{
+        height: 80px;
+        margin-bottom: 0px;
+    }
+    .photowhowe{
+       width: 340px;
+       height: auto;
+       margin-top: 65px;
+    }
+    .footer{
+        width: 1024px;
+    }  
+    .footone {
+        width: 70%;
+    }
+    .foottwo {
+        width: 30%;
+    }
+}
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width: 1025px) {
+    .head1{
+        width: 1024px;
+        
+    }
+    .headeva{
+        left: 360px;
+    }
+    .dropbtn{
+        left: 519px;
+    }
+    .dropdown{
+        left: 451px;
+    }
+    .headeva2{
+        left: 709px;
+    }
+    .all{
+        width: 815px; 
+    }
+    .wrapper{
+    width: 1008px;
+    height: 550px;
+    margin-left: -100px;
+    }
+    .page_container{
+        height: 480px;
+        width: 970px;
+    }
+    
+    .rev{
+        height: 245px;
+    }
+    .uprev{
+        margin-bottom: 5px;
+    }
+    .revtext{
+        width: 50%;
+    }
+    .rev2{
+        height: 128px;
+    }
+    .onerev {
+        margin-bottom: 32px;
+    }
+    .tworev{
+        height: 115%;
+    }
+    .threrev {
+        margin-bottom: 35px;
+    }
+    .contcont{
+        height: 690px;
+    }
+    .aboutushead{
+    left: 340px;
+    height: 63px;
+    }
+    .blocktex{
+        margin-left: -50px;
+        font-size: 12px;
+        line-height: 38px;
+    }
+    .blockphot{
+        margin-right: -50px;
+    }
+    .textwhowe{
+        width: 350px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .podrob{
+        height: 80px;
+        margin-bottom: 0px;
+    }
+    .photowhowe{
+       width: 340px;
+       height: auto;
+       margin-top: 65px;
+    }
+    .footer{
+        width: 1024px;
+    }  
+    .footone {
+        width: 70%;
+    }
+    .foottwo {
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .head1{
+        width: 919px;
+        height: 60px;
+        margin: 0 auto;
+        
+    }
+    .logdress{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        height: 60px;
+        width: auto;
+        margin: 0 auto;
+
+    }
+ 
+    .burger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .headeva{
+        display: none;
+    }
+    .headeva2{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+
+    }
+    .dropbtnmob{
+        position: absolute;
+        background: transparent;
+        border: none;
+        padding: 0px;
+        
+        cursor: pointer;
+        border: none;
+        width: 50px;
+        height: 50px;
+        left: 325px;
+        top: 5px;
+        z-index: 2000;
+        text-decoration-color: #fff;
+        background-color: black 5%;
+        
+    }
+    .insta{
+        display: none;
+    }
+    /*  Мобильая менюшка*/
+/* The container <div> - needed to position the dropdown content */
+.dropdownmob {
+    display: block;
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 363px;
+    right: 5px;
+    top: 55px;
+    z-index: 2000;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentmob {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 443px;
+    float: right;
+    right: 5px;
+    top: 5px;
+    left: 5px;
+    background: rgba(37, 38, 46, 0.79);
+    text-align: center;
+    justify-content: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentmob a {
+    margin-top: 20px; 
+    display: block;
+    float: right;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.showmob {
+    display:block;
+}
+
+.punktmenu1mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+}
+
+.punktmenu2mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 60px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu3mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 120px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu4mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 183px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu5mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 243px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu6mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 303px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu7mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 363px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+    .all{
+    width: 919px;  
+    margin-left: -8px;
+    margin-top: 84px;
+    margin-right: 0px;
+    }
+    .container{
+        width: 919px;
+        margin-left: 0px;
+        left: 0px;  
+    }
+    .content{
+        
+    }
+    .wrapper{
+        left: 0px;
+        
+    }
+    .page_container{
+       margin-top: -15px; 
+              
+    }
+
+    .main{
+        height: 445px;
+    }
+    .immersive_slider{
+        height: 400px;
+        width: 356px;
+    }
+    
+.rev{
+    margin-top: 20px;
+    height: 332px;
+    margin-bottom: 20px;
+    
+}
+.uprev{
+    height: 40px;
+    margin-bottom: 0px;
+}
+.revtext{
+    height: 40px;
+    margin-top: 0px;
+}
+.grouprev{
+    align-content: center;
+}
+.rev1{
+    position: relative;
+    display: block;
+    width: 70%;
+    height: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.rev2{
+    position: relative;
+    display: block;
+    width: 70%;
+    height: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.rev3{
+    position: relative;
+    display: block;
+    width: 70%;
+    height: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.aboutushead{
+    left: 0px;
+    margin-left: 35%;
+    height: 20px;
+    width: auto;
+}
+.contcont{
+    
+}
+.blocktex{
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    
+}
+.textwhowe{
+    font-size: 12px;
+    width: 300px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.podrob{
+    display: none;
+}
+.soc{
+    display: none;
+}
+.blockphot{
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.photowhowe{
+    margin-top: 0px;
+    width: 280px;
+    height: auto;
+    
+}
+
+.footer{
+    width: 919px;
+    height: 60px;
+    margin-top: 20px;
+}
+.footone{
+width: auto;
+height: 60px;
+
+}
+.logofoot{
+    margin-left: 0px;
+    width: 100%;
+}
+.foottel{
+    width: 110px;
+}
+.tell{
+    font-size: 12px;
+    margin-right: 0px;
+}
+.foottwo{
+    
+}
+}
+
+/*-----------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+    .head1{
+        
+        width: 575px;
+        height: 60px;
+        margin: 0 auto;
+        
+    }
+    .logdress{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        height: 60px;
+        width: auto;
+        margin: 0 auto;
+
+    }
+ 
+    .burger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .headeva{
+        display: none;
+    }
+    .headeva2{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+
+    }
+    .dropbtnmob{
+        position: absolute;
+        background: transparent;
+        border: none;
+        display: block;
+        padding: 0px;
+        
+        cursor: pointer;
+        border: none;
+        width: 50px;
+        height: 50px;
+        left: 520px;
+        top: 5px;
+        z-index: 2000;
+        text-decoration-color: #fff;
+        background-color: black 5%;
+        
+    }
+    .insta{
+        display: none;
+    }
+    /*  Мобильая менюшка*/
+/* The container <div> - needed to position the dropdown content */
+.dropdownmob {
+    display: block;
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 363px;
+    right: 5px;
+    top: 55px;
+    z-index: 2000;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentmob {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 443px;
+    float: right;
+    right: 5px;
+    top: 5px;
+    left: 5px;
+    background: rgba(37, 38, 46, 0.79);
+    text-align: center;
+    justify-content: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentmob a {
+    margin-top: 20px; 
+    display: block;
+    float: right;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.showmob {
+    display:block;
+}
+
+.punktmenu1mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+}
+
+.punktmenu2mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 60px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu3mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 120px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu4mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 183px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu5mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 243px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu6mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 303px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu7mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 363px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+    .all{
+        overflow: hidden;
+    width: 575px;  
+    margin-left: 0px;
+    margin-top: 84px;
+    margin-right: 0px;
+    }
+    .container{
+        width: 575px;
+        margin-left: -10px;
+        left: 0px;  
+    }
+    .content{
+        
+    }
+    .wrapper{
+        left: 0px;
+        height: 455px;
+
+        
+    }
+    .page_container{
+       margin-top: -15px; 
+              
+    }
+
+    .main{
+        height: 445px;
+    }
+    .immersive_slider{
+        height: 400px;
+        width: 556px;
+    }
+    
+.rev{
+    margin-top: 20px;
+    height: 552px;
+    margin-bottom: 20px;
+    
+}
+.uprev{
+    height: 40px;
+    margin-bottom: 0px;
+}
+.revtext{
+    height: 40px;
+    margin-top: 0px;
+}
+.grouprev{
+    align-content: center;
+    
+}
+.rev1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev2{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev3{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.aboutushead{
+    left: 0px;
+    margin-left: 35%;
+    height: 20px;
+    width: auto;
+}
+.contcont{
+height: 830px;    
+}
+.blocktex{
+    display: block;
+    position: relative;
+    margin-left: 60px;
+    
+}
+.textwhowe{
+    font-size: 12px;
+    width: 400px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.podrob{
+    display: none;
+}
+.soc{
+    display: none;
+}
+.blockphot{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 185px;
+    margin-right: 0;
+    float: left;
+
+}
+.photowhowe{
+    margin-top: 0px;
+    width: 380px;
+    height: auto;
+    
+}
+
+.footer{
+    
+    width: 575px;
+    height: 60px;
+    margin-top: 20px;
+}
+.footone{
+width: auto;
+height: 60px;
+
+}
+.logofoot{
+    margin-left: 0px;
+    width: 100%;
+}
+.foottel{
+    width: 110px;
+}
+.tell{
+    font-size: 12px;
+    margin-right: 0px;
+    width: 100px;
+    font-size: 12px;
+}
+.footinst{
+margin-right: 5px;
+}
+.foottwo{
+    width: 205px;
+}
+}
+/*--------------------------------------------------------------*/
+@media  (max-width: 576px) {
+    .head1{
+        
+        width: 575px;
+        height: 60px;
+        margin: 0 auto;
+        
+    }
+    .logdress{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        height: 60px;
+        width: auto;
+        margin: 0 auto;
+
+    }
+ 
+    .burger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .headeva{
+        display: none;
+    }
+    .headeva2{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+
+    }
+    .dropbtnmob{
+        position: absolute;
+        background: transparent;
+        border: none;
+        display: block;
+        padding: 0px;
+        
+        cursor: pointer;
+        border: none;
+        width: 50px;
+        height: 50px;
+        left: 520px;
+        top: 5px;
+        z-index: 2000;
+        text-decoration-color: #fff;
+        background-color: black 5%;
+        
+    }
+    .insta{
+        display: none;
+    }
+    /*  Мобильая менюшка*/
+/* The container <div> - needed to position the dropdown content */
+.dropdownmob {
+    display: block;
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 363px;
+    right: 5px;
+    top: 55px;
+    z-index: 2000;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentmob {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 443px;
+    float: right;
+    right: 5px;
+    top: 5px;
+    left: 5px;
+    background: rgba(37, 38, 46, 0.79);
+    text-align: center;
+    justify-content: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentmob a {
+    margin-top: 20px; 
+    display: block;
+    float: right;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.showmob {
+    display:block;
+}
+
+.punktmenu1mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+}
+
+.punktmenu2mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 60px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu3mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 120px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu4mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 183px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu5mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 243px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu6mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 303px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu7mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 363px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+    .all{
+        overflow: hidden;
+    width: 575px;  
+    margin-left: 0px;
+    margin-top: 84px;
+    margin-right: 0px;
+    }
+    .container{
+        width: 575px;
+        margin-left: -10px;
+        left: 0px;  
+    }
+    .content{
+        
+    }
+    .wrapper{
+        left: 0px;
+        height: 455px;
+
+        
+    }
+    .page_container{
+       margin-top: -15px; 
+       width: 295px;
+              
+    }
+
+    .main{
+        height: 445px;
+        width: 780px;
+    }
+    .immersive_slider{
+        height: 400px;
+        width: 556px;
+    }
+    
+.rev{
+    margin-top: 20px;
+    height: 552px;
+    margin-bottom: 20px;
+    
+}
+.uprev{
+    height: 40px;
+    margin-bottom: 0px;
+}
+.revtext{
+    height: 40px;
+    margin-top: 0px;
+}
+.grouprev{
+    align-content: center;
+    
+}
+.rev1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev2{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev3{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.aboutushead{
+    left: 0px;
+    margin-left: 35%;
+    height: 20px;
+    width: auto;
+}
+.contcont{
+height: 830px;    
+}
+.blocktex{
+    display: block;
+    position: relative;
+    margin-left: 60px;
+    
+}
+.textwhowe{
+    font-size: 12px;
+    width: 400px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.podrob{
+    display: none;
+}
+.soc{
+    display: none;
+}
+.blockphot{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 185px;
+    margin-right: 0;
+    float: left;
+
+}
+.photowhowe{
+    margin-top: 0px;
+    width: 380px;
+    height: auto;
+    
+}
+
+.footer{
+    
+    width: 575px;
+    height: 60px;
+    margin-top: 20px;
+}
+.footone{
+width: auto;
+height: 60px;
+
+}
+.logofoot{
+    margin-left: 0px;
+    width: 100%;
+}
+.foottel{
+    width: 110px;
+}
+.tell{
+    font-size: 12px;
+    margin-right: 0px;
+    width: 100px;
+    font-size: 12px;
+}
+.footinst{
+margin-right: 5px;
+}
+.foottwo{
+    width: 205px;
+}
+}
+
+/*------------------------------------------------------------------*/
+@media screen and (max-width: 426px) {
+   
+    .head1{
+        
+        width: 425px;
+        height: 60px;
+        margin: 0 auto;
+        
+    }
+    .logdress{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        height: 60px;
+        width: auto;
+        margin: 0 auto;
+
+    }
+ 
+    .burger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .headeva{
+        display: none;
+    }
+    .headeva2{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+
+    }
+    .burger{
+        display: block;
+      }
+    .dropbtnmob{
+        position: absolute;
+        background: transparent;
+        border: none;
+        padding: 0px;
+        display: block;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        left: 395px;
+        top: 5px;
+        z-index: 2000;
+        text-decoration-color: #fff;
+        background-color: black 5%;
+        
+    }
+    .insta{
+        display: none;
+    }
+    /*  Мобильая менюшка*/
+/* The container <div> - needed to position the dropdown content */
+.dropdownmob {
+    display: block;
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 363px;
+    right: 5px;
+    top: 55px;
+    z-index: 2000;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentmob {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 443px;
+    float: right;
+    right: 5px;
+    top: 5px;
+    left: 5px;
+    background: rgba(37, 38, 46, 0.79);
+    text-align: center;
+    justify-content: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentmob a {
+    margin-top: 20px; 
+    display: block;
+    float: right;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.showmob {
+    display:block;
+}
+
+.punktmenu1mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+}
+
+.punktmenu2mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 60px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu3mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 120px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu4mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 183px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu5mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 243px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu6mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 303px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu7mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 363px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+    .all{
+        overflow: hidden;
+        width: 425px;  
+        margin-left: 0px;
+        margin-top: 84px;
+        margin-right: 0px;
+    }
+    .container{
+        width: 425px;
+        margin-left: -8px;
+        left: 0px;  
+        float: left;
+    }
+    .content{
+       
+    }
+    .wrapper{
+        left: 0px;
+        height: 450px;
+       
+        
+    }
+    .page_container{
+       margin-top: -15px; 
+       width: 295px;
+              
+    }
+
+    .main{
+        height: 445px;
+        width: 425px;
+        margin-left: 100px;
+    }
+    .immersive_slider{
+        height: 400px;
+        width: 380px;
+    }
+    
+.rev{
+    margin-top: 20px;
+    height: 440px;
+    margin-bottom: 20px;
+    
+}
+.uprev{
+    height: 40px;
+    margin-bottom: 0px;
+}
+.revtext{
+    height: 40px;
+    margin-top: 0px;
+}
+.grouprev{
+    align-content: center;
+    
+}
+.rev1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 120px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev2{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 120px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev3{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 120px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.aboutushead{
+    left: 0px;
+    margin-left: 35%;
+    height: 20px;
+    width: auto;
+}
+.contcont{
+height: 790px; 
+margin-bottom: 20px;   
+}
+.blocktex{
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    
+}
+.textwhowe{
+    font-size: 12px;
+    width: 345px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.podrob{
+    display: none;
+}
+.soc{
+    display: none;
+}
+.blockphot{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 0;
+    float: left;
+    right: 0px;
+    left: 0px;
+}
+.photowhowe{
+    margin-top: 0px;
+    width: 345px;
+    height: auto;
+    
+}
+
+.footer{
+    
+    width: 425px;
+    height: 60px;
+    margin-top: 40px;
+}
+.footone{
+width: auto;
+height: 60px;
+
+}
+.logofoot{
+    margin-left: 0px;
+    width: 100%;
+}
+.foottel{
+    width: 110px;
+}
+.tell{
+    font-size: 12px;
+    margin-right: 0px;
+    width: 100px;
+    font-size: 12px;
+}
+.footinst{
+margin-right: 5px;
+}
+.foottwo{
+    width: 205px;
+}
+}
+
+/*----------------------------------------------------------------*/
+
+@media screen and (max-width: 376px) {
+   
+    .head1{
+        
+        width: 375px;
+        height: 60px;
+        margin: 0 auto;
+        
+    }
+    .logdress{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        height: 60px;
+        width: auto;
+        margin: 0 auto;
+
+    }
+ 
+    .burger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .headeva{
+        display: none;
+    }
+    .headeva2{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+
+    }
+    .burger{
+        display: block;
+      }
+    .dropbtnmob{
+        position: absolute;
+        background: transparent;
+        border: none;
+        padding: 0px;
+        display: block;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        left: 325px;
+        top: 5px;
+        z-index: 2000;
+        text-decoration-color: #fff;
+        background-color: black 5%;
+        
+    }
+    .insta{
+        display: none;
+    }
+    /*  Мобильая менюшка*/
+/* The container <div> - needed to position the dropdown content */
+.dropdownmob {
+    display: block;
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 363px;
+    right: 5px;
+    top: 55px;
+    z-index: 2000;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentmob {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 443px;
+    float: right;
+    right: 5px;
+    top: 5px;
+    left: 5px;
+    background: rgba(37, 38, 46, 0.79);
+    text-align: center;
+    justify-content: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentmob a {
+    margin-top: 20px; 
+    display: block;
+    float: right;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.showmob {
+    display:block;
+}
+
+.punktmenu1mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+}
+
+.punktmenu2mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 60px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu3mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 120px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu4mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 183px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu5mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 243px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu6mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 303px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu7mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 363px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+    .all{
+        overflow: hidden;
+    width: 375px;  
+    margin-left: 0px;
+    margin-top: 84px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    }
+    .container{
+        width: 325px;
+        margin-left: -8px;
+        left: 0px;  
+        float: left;
+    }
+    .content{
+       
+    }
+    .wrapper{
+        left: 0px;
+        height: 450px;
+       
+        
+    }
+    .page_container{
+       margin-top: -15px; 
+       width: 295px;
+    }
+
+    .main{
+        height: 445px;
+        width: 375px;
+    }
+    .immersive_slider{
+        height: 400px;
+        width: 356px;
+
+    }
+    
+.rev{
+    margin-top: 20px;
+    height: 382px;
+    margin-bottom: 20px;
+    
+}
+.uprev{
+    height: 40px;
+    margin-bottom: 0px;
+}
+.revtext{
+    height: 40px;
+    margin-top: 0px;
+}
+.grouprev{
+    align-content: center;
+    
+}
+.rev1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev2{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev3{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.aboutushead{
+    left: 0px;
+    margin-left: 35%;
+    height: 20px;
+    width: auto;
+}
+.contcont{
+height: 710px;    
+}
+.blocktex{
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    
+}
+.textwhowe{
+    font-size: 12px;
+    width: 300px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.podrob{
+    display: none;
+}
+.soc{
+    display: none;
+}
+.blockphot{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    left: 20px;
+}
+.photowhowe{
+    margin-top: 0px;
+    width: 280px;
+    height: auto;
+    
+}
+
+.footer{
+    
+    width: 375px;
+    height: 60px;
+    margin-top: 20px;
+}
+.footone{
+width: auto;
+height: 60px;
+
+}
+.logofoot{
+    margin-left: 0px;
+    width: 100%;
+}
+.foottel{
+    width: 110px;
+}
+.tell{
+    font-size: 12px;
+    margin-right: 0px;
+    width: 100px;
+    font-size: 12px;
+}
+.footinst{
+margin-right: 5px;
+}
+.foottwo{
+    width: 205px;
+}
+}
+
+
+/*--------------------------------------------------------------*/
+@media screen and (max-width: 321px) {
+   
+    .head1{
+        
+        width: 320px;
+        height: 60px;
+        margin: 0 auto;
+        
+    }
+    .logdress{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        height: 60px;
+        width: auto;
+        margin: 0 auto;
+
+    }
+ 
+    .burger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .headeva{
+        display: none;
+    }
+    .headeva2{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+
+    }
+    .burger{
+        display: block;
+      }
+    .dropbtnmob{
+        position: absolute;
+        background: transparent;
+        border: none;
+        padding: 0px;
+        display: block;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        left: 275px;
+        top: 5px;
+        z-index: 2000;
+        text-decoration-color: #fff;
+        background-color: black 5%;
+        
+    }
+    .insta{
+        display: none;
+    }
+    /*  Мобильая менюшка*/
+/* The container <div> - needed to position the dropdown content */
+.dropdownmob {
+    display: block;
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 363px;
+    right: 5px;
+    top: 55px;
+    z-index: 2000;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentmob {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 443px;
+    float: right;
+    right: 5px;
+    top: 5px;
+    left: 5px;
+    background: rgba(37, 38, 46, 0.79);
+    text-align: center;
+    justify-content: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentmob a {
+    margin-top: 20px; 
+    display: block;
+    float: right;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.showmob {
+    display:block;
+}
+
+.punktmenu1mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: none;
+
+    color: #FFFFFF;
+}
+
+.punktmenu2mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 60px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu3mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 120px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu4mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 183px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu5mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 243px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu6mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 303px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.punktmenu7mob{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 0px;
+    top: 363px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+    .all{
+        overflow: hidden;
+    width: 320px;  
+    margin-left: 0px;
+    margin-top: 84px;
+    margin-right: 0px;
+    }
+    .container{
+        width: 300px;
+        margin-left: -8px;
+        left: 0px;  
+        float: left;
+    }
+    .content{
+       
+    }
+    .wrapper{
+        left: 0px;
+        height: 450px;
+       
+        
+    }
+    .page_container{
+       margin-top: -15px; 
+       width: 295px;
+              
+    }
+
+    .main{
+        height: 445px;
+        width: 320px;
+    }
+    .immersive_slider{
+        height: 400px;
+        width: 320px;
+    }
+    
+.rev{
+    margin-top: 20px;
+    height: 382px;
+    margin-bottom: 20px;
+    
+}
+.uprev{
+    height: 40px;
+    margin-bottom: 0px;
+}
+.revtext{
+    height: 40px;
+    margin-top: 0px;
+}
+.grouprev{
+    align-content: center;
+    
+}
+.rev1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev2{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+}
+.rev3{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.aboutushead{
+    left: 0px;
+    margin-left: 35%;
+    height: 20px;
+    width: auto;
+}
+.contcont{
+height: 710px; 
+margin-bottom: 20px;   
+}
+.blocktex{
+    display: block;
+    position: relative;
+    margin-left: 0px;
+    
+}
+.textwhowe{
+    font-size: 12px;
+    width: 300px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.podrob{
+    display: none;
+}
+.soc{
+    display: none;
+}
+.blockphot{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.photowhowe{
+    margin-top: 0px;
+    width: 280px;
+    height: auto;
+    margin-right: -36px;
+    
+}
+
+.footer{
+    
+    width: 320px;
+    height: 60px;
+    margin-top: 20px;
+}
+.footone{
+width: auto;
+height: 60px;
+
+}
+.logofoot{
+    margin-left: 0px;
+    width: 100%;
+}
+.foottel{
+    width: 110px;
+}
+.tell{
+    font-size: 12px;
+    margin-right: 0px;
+    width: 100px;
+    font-size: 12px;
+}
+.footinst{
+margin-right: 5px;
+}
+.foottwo{
+    width: 205px;
+}
+}

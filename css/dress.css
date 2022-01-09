@@ -1,0 +1,476 @@
+
+.alldress{
+
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 1400px;
+    height: 650px;
+}
+
+.onemore{
+    margin-top: 50px;
+}
+.dresshead{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+    background: #25262E;
+    box-shadow: 0px 13px 13px rgba(0, 0, 0, 0.39);    
+}
+.nom{
+    width: 110px;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff; 
+}
+.blockphoto{
+    width: 1390px;
+    height: 530px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+    
+.photo1,.photo2, .photo3 {
+        margin: 24px;
+    }
+.photo1{
+    max-width: 430px;
+    max-height: 430px;
+    left: 0px;
+    top: 142px;
+    border-radius: 50px;
+}
+.photo2{
+    max-width: 382px;
+    max-height: 535px;
+    left: 504px;
+    top: 78px;
+    border-radius: 50px;
+}
+.photo3{
+    max-width: 430px;
+    max-height: 430px;
+    left: 958px;
+    top: 142px;
+    border-radius: 50px;
+}
+
+
+.footer{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+    .head1{
+        width: 1500px;
+        
+    }
+    .headeva{
+        left: 500px;
+    }
+    .dropbtn{
+        left: 659px;
+    }
+    .dropdown{
+        left: 591px;
+    }
+    .headeva2{
+        left: 849px;
+    }
+    .alldress{
+        width: 1290px;
+        height: 650px;
+    }
+    .blockphoto{
+        width: 1290px;
+        height: 535px;
+    }
+    .photo1{
+        width: 382px;
+    }
+    .photo2{
+        width: 382px;
+    }
+    .photo3{
+        width: 382px;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .head1{
+        width: 1440px;
+        
+    }
+    .headeva{
+        left: 420px;
+    }
+    .dropbtn{
+        left: 579px;
+    }
+    .dropdown{
+        left: 511px;
+    }
+    .headeva2{
+        left: 769px;
+    }
+    .alldress{
+        width: 1230px;
+        height: 650px;
+    }
+    .blockphoto{
+        width: 1235px;
+        height: 535px;
+    }
+    .photo1{
+        width: 360px;
+    }
+    .photo2{
+        width: 360px;
+    }
+    .photo3{
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 1369px) {
+    .head1{
+        width: 1368px;
+        
+    }
+    .headeva{
+        left: 360px;
+    }
+    .dropbtn{
+        left: 519px;
+    }
+    .dropdown{
+        left: 455px;
+    }
+    .headeva2{
+        left: 709px;
+    }
+    .alldress{
+        width: 815px;
+        height: 450px;
+    }
+    .blockphoto{
+        width: 815px;
+        height: 325px;
+    }
+    .photo1{
+        width: 223px;
+    }
+    .photo2{
+        width: 223px;
+    }
+    .photo3{
+        width: 223px;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .head1{
+        width: 1024px;
+        
+    }
+    .headeva{
+        left: 360px;
+    }
+    .dropbtn{
+        left: 519px;
+    }
+    .dropdown{
+        left: 455px;
+    }
+    .headeva2{
+        left: 709px;
+    }
+    .alldress{
+        width: 815px;
+        height: 450px;
+    }
+    .blockphoto{
+        width: 815px;
+        height: 325px;
+    }
+    .photo1{
+        width: 223px;
+    }
+    .photo2{
+        width: 223px;
+    }
+    .photo3{
+        width: 223px;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .head1{
+        width: 768px;
+    }
+    .burger{
+        margin-right: 25px;
+    }
+    .dropbtnmob{
+        left: 700px;
+        display: block;
+    }
+    .dropdownmob{
+        width: 768px;
+        left: -5px;
+    }
+    .alldress{
+        margin-top: 84px;
+        margin-left: -8px;
+        height: 940px;
+        width: 768px;
+    }
+    .onemore{
+        margin-top: 460px;
+    }
+    .dresshead{
+        width: 768px;
+    }
+    .blockphoto{
+        width: 400px;
+        height: 1200px;
+        margin: 0;
+        justify-content: left;
+        align-items: flex-start;
+        margin-left: 170px;
+    }
+    .photo1{
+        width: 385px;
+        height: auto;
+    }
+    .photo2{
+        position: relative;
+        left: -431px;
+        width: 385px;
+        height: auto;
+        top: 420px;
+    
+    }
+    .photo3{
+        position: relative;
+        left: -863px;
+        width: 385px;
+        height: auto;
+        top: 920px;
+    }
+    .price{
+        margin-top: 70px;
+        width: 740px;
+    }
+    .footer{
+        margin-top: 460px;
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .head1{
+        width: 425px;
+    }
+    .burger{
+        margin-right: 15px;
+    }
+    .dropbtnmob{
+        left: 370px;
+    }
+    .dropdownmob{
+        width: 425px;
+        left: -5px;
+    }
+    .alldress{
+        margin-top: 84px;
+        margin-left: -8px;
+        height: 940px;
+        width: 425px;
+    }
+    .onemore{
+        margin-top: 270px;
+    }
+    .dresshead{
+        width: 425px;
+    }
+    .blockphoto{
+        width: 400px;
+        height: 1000px;
+        margin: 0;
+        justify-content: left;
+        align-items: flex-start;
+        margin-left: 25px;
+    }
+    .photo1{
+        width: 327px;
+        height: auto;
+    }
+    .photo2{
+        position: relative;
+        left: -375px;
+        width: 327px;
+        height: auto;
+        top: 354px;
+    
+    }
+    .photo3{
+        position: relative;
+        left: -750px;
+        width: 327px;
+        height: auto;
+        top: 780px;
+    }
+    .price{
+        margin-top: 70px;
+        width: 425px;
+    }
+    .footer{
+        margin-top: 250px;
+        width: 425px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .head1{
+        width: 375px;
+    }
+    .burger{
+        margin-right: 15px;
+    }
+    .dropbtnmob{
+        left: 320px;
+     }
+    .dropdownmob{
+        width: 375px;
+        left: -5px;
+}
+    .alldress{
+        margin-top: 84px;
+        margin-left: -8px;
+        height: 940px;
+        width: 375px;
+    }
+    .onemore{
+        margin-top: 260px;
+    }
+    .dresshead{
+        width: 375px;
+    }
+    .blockphoto{
+        width: 375px;
+        height: 1000px;
+        margin: 0;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .photo1{
+        width: 327px;
+        height: auto;
+    }
+    .photo2{
+        position: relative;
+        left: -375px;
+        width: 327px;
+        height: auto;
+        top: 354px;
+    
+    }
+    .photo3{
+        position: relative;
+        left: -750px;
+        width: 327px;
+        height: auto;
+        top: 780px;
+    }
+    .price{
+        margin-top: 70px;
+        width: 375px;
+    }
+    .footer{
+        margin-top: 250px;
+        width: 375px;
+    }
+}
+@media screen and (max-width: 321px) {
+    .head1{
+        width: 320px;
+    }
+    .burger{
+        margin-right: 15px;
+    }
+    .dropbtnmob{
+        left: 270px;
+     }
+    .dropdownmob{
+        width: 320px;
+        left: -5px;
+}
+.alldress{
+    margin-top: 84px;
+    margin-left: -8px;
+    height: 970px;
+    width: 320px;
+}
+.onemore{
+    
+}
+.dresshead{
+    width: 320px;
+}
+.blockphoto{
+    width: 320px;
+    height: 900px;
+    margin: 0;
+    justify-content: left;
+    align-items: flex-start;
+}
+.photo1{
+    width: 272px;
+    height: auto;
+}
+.photo2{
+    position: relative;
+    left: -320px;
+    width: 272px;
+    height: auto;
+    top: 304px;
+
+}
+.photo3{
+    position: relative;
+    left: -640px;
+    width: 272px;
+    height: auto;
+    top: 660px;
+}
+.price{
+    width: 320px;
+    margin-top: 20px;
+    
+}
+.footer{
+    margin-top: 95px;
+    width: 320px;
+}
+}
+
